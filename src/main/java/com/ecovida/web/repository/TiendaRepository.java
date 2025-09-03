@@ -1,0 +1,9 @@
+package com.ecovida.web.repository;
+
+import com.ecovida.web.entities.Tienda;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface TiendaRepository extends JpaRepository<Tienda, Long> {
+}
